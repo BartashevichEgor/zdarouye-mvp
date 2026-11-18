@@ -1,0 +1,17 @@
+{
+  "name": "Здароўе",
+  "short_name": "Здароўе",
+  "description": "Семейный медицинский трекер",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#F7F9FC",
+  "theme_color": "#015DF8",
+  "icons": [
+    {
+      "src": "/brand-heart.png",
+      "sizes": "293x293",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

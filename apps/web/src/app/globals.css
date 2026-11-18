@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #f7f9fc;
+}
+
+body {
+  min-height: 100dvh;
+  margin: 0;
+  background: #f7f9fc;
+  color: #161616;
+  font-family: var(--font-inter), Inter, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgb(1 93 248 / 35%);
+  outline-offset: 2px;
+}
